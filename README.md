@@ -108,12 +108,12 @@ This project involves building a Spring Boot application with a REST API for man
    docker push <dockerhub-username>/<image-name>
 
 7. **Deploy on Kubernetes**:
-   -Use Rancher UI or kubectl commands to deploy the Docker image to the Kubernetes cluster.
-   -Ensure NodePort is configured for the service exposure.
+   - Use Rancher UI or kubectl commands to deploy the Docker image to the Kubernetes cluster.
+   - Ensure NodePort is configured for the service exposure.
 
 ### Testing
    Use Postman to test the APIs:
-     - GET: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
-     - POST: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
-     - PUT: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
-     - DELETE: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
+   - GET: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
+   - POST: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
+   - PUT: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
+   - DELETE: http://<ec2-public-dns>:<nodeport>/StudentSurvey-0.0.1-SNAPSHOT/survey
